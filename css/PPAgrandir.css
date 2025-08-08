@@ -1,71 +1,7 @@
 @font-face {
   font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/GrandHeavy.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/GrandLight.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/NarrowRegular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/PPAgrandirText-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
   src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/Regular.otf') format('opentype');
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/ThinItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/TightRegular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/WideBlackItalic.otf') format('opentype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Agrandir';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir/WideLight.otf') format('opentype');
-  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }

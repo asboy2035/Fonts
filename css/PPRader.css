@@ -30,19 +30,3 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'PP Rader';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Rader/Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Rader';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Rader/ThinItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-

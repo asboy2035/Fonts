@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'PP Neue Corp Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp%20Condensed/Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp%20Condensed/Ultrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp Condensed';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp%20Condensed/Ultralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+

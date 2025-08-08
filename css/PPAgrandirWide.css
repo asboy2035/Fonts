@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'PP Agrandir Wide';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir%20Wide/BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Agrandir Wide';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir%20Wide/Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
