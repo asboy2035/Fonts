@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompactMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompactUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompactUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompressedMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompressedUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CompressedUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CondensedMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CondensedUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/CondensedUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/ExtendedMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/ExtendedUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/ExtendedUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NarrowMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NarrowUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NarrowUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NormalMedium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NormalUltrabold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/NormalUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/TightMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/TightUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/TightUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/WideMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/WideUltrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Corp';
+  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Neue%20Corp/WideUltralight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
