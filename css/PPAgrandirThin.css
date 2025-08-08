@@ -1,8 +1,1 @@
-@font-face {
-  font-family: 'PP Agrandir Thin';
-  src: url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir%20Thin/PPAgrandir-ThinItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
+@font-face{font-family:'PP Agrandir Thin';src:url('https://cdn.jsdelivr.net/gh/asboy2035/fonts@master/PP%20Agrandir%20Thin/PPAgrandir-ThinItalic.otf') format('opentype');font-weight:100;font-style:italic;font-display:swap}

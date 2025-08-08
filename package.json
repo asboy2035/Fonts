@@ -15,7 +15,11 @@
   "type": "commonjs",
   "main": "generateCSS.js",
   "scripts": {
-    "build": "npm run clean && node generateCSS.js",
+    "build": "npm run clean && npm run copy-frontend && node generateCSS.js",
+    "copy-frontend": "mkdir css && cp index.html css",
     "clean": "rm -rf css"
+  },
+  "dependencies": {
+    "clean-css": "^5.3.3"
   }
 }

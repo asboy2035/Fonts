@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const CleanCSS = require('clean-css')
 
 const fontsRootDir = './'               // Root where font folders live (adjust if needed)
 const cssOutputDir = path.join('css')  // Output CSS folder
@@ -17,7 +18,7 @@ function getFontFormat(ext) {
   }
 }
 
-// Convert string to This-Case-With-Dashes (PascalCase-ish with dashes)
+// Convert string to PascalCase
 function toThisCase(str) {
   return str
     .trim()
@@ -104,7 +105,8 @@ folders.forEach(folderName => {
   const cssFileName = toThisCase(folderName) + '.css'
   const cssFilePath = path.join(cssOutputDir, cssFileName)
 
-  fs.writeFileSync(cssFilePath, cssContent)
+  const minifiedCSS = new CleanCSS().minify(cssContent).styles
+  fs.writeFileSync(cssFilePath, minifiedCSS)
 
   console.log(`✅ Created CSS for "${folderName}" → ${cssFilePath}`)
 })

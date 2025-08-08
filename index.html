@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ash's Fonts</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://fonts.asboy2035.com/PPAgrandir.css">
+  <link rel="stylesheet" href="https://fonts.asboy2035.com/PPNeueMachina.css">
+</head>
+<style>
+  :root {
+    --backgroundColor: #c1aef3;
+    --foregroundColor: rgba(196, 196, 196, 0.1);
+    --foregroundOpaque: rgb(162, 143, 201);
+    --textColor: rgba(0, 0, 0, 0.9);
+    --accentColor: rgb(159, 117, 232);
+    --shadowColor: rgba(244, 226, 255, 0.8);
+
+    --swirly01: #8f5bea;
+    --swirly02: rgb(218, 90, 189);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --backgroundColor: #0c0023;
+      --foregroundColor: rgba(134, 134, 134, 0.1);
+      --foregroundOpaque: rgb(69, 53, 89);
+      --textColor: rgba(240, 240, 240, 0.9);
+      --accentColor: rgb(90, 20, 209);
+      --shadowColor: rgba(155, 132, 220, 0.8);
+
+      --swirly01: #4017b7;
+      --swirly02: rgb(143, 33, 180);
+    }
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--backgroundColor);
+    color: var(--textColor);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "PP Neue Machina", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    --buttonRadius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    border: none;
+    border-radius: var(--buttonRadius);
+    background: var(--foregroundColor);
+    font-family: "PP Agrandir", sans-serif;
+    font-size: medium;
+    color: var(--textColor);
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    backdrop-filter: blur(2rem) saturate(150%);
+    position: relative;
+  }
+
+  button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    border-radius: var(--buttonRadius);
+    border: 0.1rem solid var(--shadowColor);
+    box-shadow: 0 0.5rem 0.5rem var(--shadowColor);
+    transition: 0.2s ease-in-out;
+    opacity: 0.1;
+  }
+
+  button:hover::after {
+    box-shadow: 0 0 0.75rem var(--shadowColor);
+    opacity: 0.3;
+  }
+
+  button > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+</style>
+<body>
+  <h1>ash's Fonts</h1>
+
+  <a href="https://guides.asboy2035.com/themes/web/fonts" target="_blank">
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8c0-2.828 0-4.243.879-5.121C5.757 2 7.172 2 10 2h4c2.828 0 4.243 0 5.121.879C20 3.757 20 5.172 20 8v8c0 2.828 0 4.243-.879 5.121C18.243 22 16.828 22 14 22h-4c-2.828 0-4.243 0-5.121-.879C4 20.243 4 18.828 4 16z"/><path d="M19.898 16h-12c-.93 0-1.395 0-1.777.102A3 3 0 0 0 4 18.224" opacity="0.5"/><path stroke-linecap="round" d="M8 7h8m-8 3.5h5" opacity="0.5"/></g></svg>
+      Learn More
+    </button>
+  </a>
+</body>
+</html>
