@@ -1,8 +1,8 @@
-const fs = require('fs')
-const path = require('path')
-const CleanCSS = require('clean-css')
+import * as fs from 'node:fs'
+import * as path from 'node:path'
+import CleanCSS from 'clean-css'
 
-const fontsRootDir = './'               // Root where font folders live (adjust if needed)
+const fontsRootDir = './'              // Root where font folders live
 const cssOutputDir = path.join('css')  // Output CSS folder
 
 // Helpers
@@ -109,19 +109,4 @@ folders.forEach(folderName => {
   fs.writeFileSync(cssFilePath, minifiedCSS)
 
   console.log(`✅ Created CSS for "${folderName}" → ${cssFilePath}`)
-})
-
-
-// After processing all folders, run git add .
-const { exec } = require('child_process')
-exec('git add .', (error, stdout, stderr) => {
-  if (error) {
-    console.error(`Error running git add: ${error.message}`)
-    return
-  }
-  if (stderr) {
-    console.error(`Git add stderr: ${stderr}`)
-    return
-  }
-  console.log('✅ Successfully ran git add .')
 })

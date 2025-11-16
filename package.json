@@ -12,7 +12,7 @@
   },
   "license": "Apache-2.0",
   "author": "asboy2035",
-  "type": "commonjs",
+  "type": "module",
   "main": "generateCSS.js",
   "scripts": {
     "build": "npm run clean && npm run copy-frontend && node generateCSS.js",
